@@ -1,0 +1,11 @@
+---
+
+- hosts: all
+  vars:
+    http_proxy: ""
+    https_proxy: ""
+  gather_facts: True
+
+  tasks:
+    - name: ping the server
+      ping:
