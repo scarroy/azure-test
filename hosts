@@ -1,2 +1,2 @@
 [ubuntu]
-10.253.44.90
+10.253.44.90 ansible_user=sysadmin
